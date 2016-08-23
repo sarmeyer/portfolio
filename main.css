@@ -1,0 +1,81 @@
+section {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  background-image: url('https://s3-ap-southeast-2.amazonaws.com/qwilr-aus/4BAJ6xgPPUW5i95Lw1W1jiTaCFtJBGEXwClDhA.jpeg');
+  background-size: cover;
+  margin-top: -8%;
+  position: absolute;
+}
+.name {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 5em;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 26%;
+}
+.title {
+  font-weight: 100;
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  margin: -3%;
+}
+h3{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.about {
+  background-color: white;
+  background-size: cover;
+}
+.aboutMe {
+  width: 60vw;
+  height: 70vh;
+  text-align: left;
+  position: relative;
+}
+.aboutTitle {
+  font-family: 'Dancing Script', cursive;
+  color: #FC7A70;
+  font-size: 5em;
+}
+.aboutName {
+  font-family: 'Merriweather', serif;
+  color: #7BE1DC;
+}
+.pageTitles {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 5em;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 0%;
+  padding-top: 5%;
+}
+.projects {
+  background-image: url('https://d2q7nwt0fhbb30.cloudfront.net/large/photo-1422640805998-18a4dd89bec2.jpg');
+  background-size: cover;
+}
+.skills {
+  background-image: url('https://s3-ap-southeast-2.amazonaws.com/qwilr-aus/6oJ5qzMIzqWolg2jacsQOF8mNLZtSdqwWVd-Qw.jpeg');
+  background-size: cover;
+}
+.list {
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 1.4em;
+  font-weight: lighter;
+  text-align: center;
+  margin: -2%;
+  height: 100vh;
+}
+.list h2 {
+  margin: .5em;
+}
+.techniques {
+  background-image: url('https://d2q7nwt0fhbb30.cloudfront.net/large/photo-1432821596592-e2c18b78144f.jpg');
+  background-size: cover;
+}
