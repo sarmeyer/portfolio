@@ -5,35 +5,37 @@ section {
 .main {
   background-image: url('https://s3-ap-southeast-2.amazonaws.com/qwilr-aus/4BAJ6xgPPUW5i95Lw1W1jiTaCFtJBGEXwClDhA.jpeg');
   background-size: cover;
-  margin-top: -8%;
   position: absolute;
+}
+.mainTitle {
+  color: white;
+  text-align: center;
+  height: 100vh;
 }
 .name {
   font-family: 'Dancing Script', cursive;
-  color: white;
   font-size: 5em;
   font-weight: lighter;
-  text-align: center;
   margin-top: 26%;
 }
 .title {
   font-weight: 100;
   font-family: 'Merriweather', serif;
-  color: white;
   font-size: 2.5em;
-  text-align: center;
   margin: -3%;
 }
 h3{
   font-family: 'Roboto Condensed', sans-serif;
 }
 .about {
-  background-color: white;
+  background-image: url('white.jpg');
   background-size: cover;
 }
 .aboutMe {
   width: 60vw;
-  height: 70vh;
+  height: 20vh;
+  height: 100vh;
+  width: 100vw;
   text-align: left;
   position: relative;
 }
@@ -59,6 +61,11 @@ h3{
   background-image: url('https://d2q7nwt0fhbb30.cloudfront.net/large/photo-1422640805998-18a4dd89bec2.jpg');
   background-size: cover;
 }
+.pageTitles h1 {
+}
+.thumbs {
+  height: 100vh;
+}
 .skills {
   background-image: url('https://s3-ap-southeast-2.amazonaws.com/qwilr-aus/6oJ5qzMIzqWolg2jacsQOF8mNLZtSdqwWVd-Qw.jpeg');
   background-size: cover;
@@ -78,4 +85,38 @@ h3{
 .techniques {
   background-image: url('https://d2q7nwt0fhbb30.cloudfront.net/large/photo-1432821596592-e2c18b78144f.jpg');
   background-size: cover;
+}
+.experience {
+  background-image: url('https://s3-ap-southeast-2.amazonaws.com/qwilr-aus/E5r2lvan_-xpG9ywHd8kBAt78_l2wc1oUHFQWA.jpeg');
+  background-size: cover;
+}
+.jobs {
+  height: 100vh;
+  width: 100vw;
+}
+.row {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row h2 {
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  font-weight: bolder;
+}
+.video-fill {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.video-fill video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
