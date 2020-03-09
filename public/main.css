@@ -61,6 +61,11 @@ article {
   width: 25px;
   margin-right: 13px;
 }
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: #fc7a70;
+}
 .social {
   margin-top: 5%;
   display: flex;
@@ -69,6 +74,13 @@ article {
 .social .icon {
   height: 55px;
   width: 55px;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+
+.social .icon:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 .pageTitles {
   font-family: "Dancing Script", cursive;
