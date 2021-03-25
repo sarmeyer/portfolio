@@ -49,6 +49,14 @@ h3 {
   font-family: "Merriweather", serif;
   color: #7be1dc;
 }
+.formidable {
+  text-decoration: none;
+  color: black;
+  display: inherit;
+}
+.formidable:hover {
+  color: #fc7a70;
+}
 article {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.2em;
